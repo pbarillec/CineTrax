@@ -1,0 +1,37 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore built files
+/dist/
+/.nuxt/
+npm-debug.log
+yarn-error.log
+
+# local env files
+.env.local
+.env.*.local
+.env
+
+
+# Ignore Log files and npm debug logs
+logs/
+*.log
+
+# Ignore IDE and editor specific files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore npm package-lock.json
+package-lock.json
+
+# Ignore Yarn yarn.lock file
+yarn.lock
